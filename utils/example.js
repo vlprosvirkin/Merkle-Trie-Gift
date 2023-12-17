@@ -8,8 +8,8 @@ const merkleTree = new MerkleTree(niceList);
 // get the root
 const root = merkleTree.getRoot();
 
-// find the proof that norman block is in the list 
-const name = 'Norman Block';
+// find the proof that Alexander Franey is in the list 
+const name = 'Alexander Franey';
 const index = niceList.findIndex(n => n === name);
 const proof = merkleTree.getProof(index);
 
